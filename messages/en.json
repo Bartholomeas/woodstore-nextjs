@@ -1,193 +1,193 @@
 {
 	"Global": {
 		"metadata": {
-			"title": "Your Next Store - Demo",
-			"description": "A Next.js boilerplate for building your online store instantly: simple, quick, powerful."
+			"title": "Twój Następny Sklep - Demo",
+			"description": "Szablon Next.js do natychmiastowego tworzenia sklepu internetowego: prosty, szybki, potężny."
 		},
 		"notFound": {
-			"title": "Not found",
-			"description": "The page you were looking for does not exist.",
-			"goBackLink": "Go back home"
+			"title": "Nie znaleziono",
+			"description": "Strona, której szukałeś, nie istnieje.",
+			"goBackLink": "Wróć do strony głównej"
 		},
 		"globalError": {
-			"title": "Something went wrong!",
-			"moreDetails": "More details",
-			"tryAgainButton": "Try again"
+			"title": "Coś poszło nie tak!",
+			"moreDetails": "Więcej szczegółów",
+			"tryAgainButton": "Spróbuj ponownie"
 		},
 		"error": {
-			"title": "Ooops, something went wrong!",
-			"goBackLink": "Try again"
+			"title": "Ups, coś poszło nie tak!",
+			"goBackLink": "Spróbuj ponownie"
 		},
 		"footer": {
-			"newsletterTitle": "Subscribe to our newsletter",
-			"categoriesTitle": "Products"
+			"newsletterTitle": "Zapisz się do naszego newslettera",
+			"categoriesTitle": "Produkty"
 		},
 		"newsletter": {
-			"emailPlaceholder": "Enter your email",
-			"subscribeButton": "Subscribe",
-			"success": "You have successfully subscribed to our newsletter.",
-			"error": "Failed to subscribe to our newsletter."
+			"emailPlaceholder": "Wpisz swój e-mail",
+			"subscribeButton": "Subskrybuj",
+			"success": "Pomyślnie zapisano się do naszego newslettera.",
+			"error": "Nie udało się zapisać do naszego newslettera."
 		},
 		"nav": {
 			"search": {
-				"title": "Search",
-				"placeholder": "Search for products…"
+				"title": "Szukaj",
+				"placeholder": "Szukaj produktów…"
 			},
 			"cartSummary": {
-				"itemsInCart": "Items in cart",
-				"total": "Total",
-				"totalItems": "{count, plural, =0 {No items} =1 {# item} other {# items}} in cart"
+				"itemsInCart": "Produkty w koszyku",
+				"total": "Suma",
+				"totalItems": "{count, plural, =0 {Brak produktów} =1 {# produkt} other {# produkty}} w koszyku"
 			}
 		},
 		"addToCart": {
-			"success": "Added {productName} to cart",
-			"actionButton": "Add to cart",
-			"disabled": "Out of stock"
+			"success": "Dodano {productName} do koszyka",
+			"actionButton": "Dodaj do koszyka",
+			"disabled": "Brak w magazynie"
 		},
 		"deliveryEstimates": {
-			"atLeast": "At least",
-			"upTo": "Up to",
-			"businessDay": "{count, plural, =1 {# business day} other {# business days}}",
-			"day": "{count, plural, =1 {# day} other {# days}}",
-			"hour": "{count, plural, =1 {# hour} other {# hours}}",
-			"month": "{count, plural, =1 {# month} other {# months}}",
-			"week": "{count, plural, =1 {# week} other {# weeks}}"
+			"atLeast": "Co najmniej",
+			"upTo": "Do",
+			"businessDay": "{count, plural, =1 {# dzień roboczy} other {# dni robocze}}",
+			"day": "{count, plural, =1 {# dzień} other {# dni}}",
+			"hour": "{count, plural, =1 {# godzina} other {# godziny}}",
+			"month": "{count, plural, =1 {# miesiąc} other {# miesiące}}",
+			"week": "{count, plural, =1 {# tydzień} other {# tygodnie}}"
 		}
 	},
 	"/": {
 		"hero": {
-			"title": "Discover our Curated Collection",
-			"description": "Explore our carefully selected products for your home and lifestyle.",
-			"action": "Shop Now",
+			"title": "Odkryj naszą Wyselekcjonowaną Kolekcję",
+			"description": "Przeglądaj starannie wybrane produkty do Twojego domu i stylu życia.",
+			"action": "Kup Teraz",
 			"link": "/category/accessories"
 		}
 	},
 	"/search": {
 		"notFound": {
-			"title": "No Results Found for \"{query}\"",
-			"description": "Sorry, we couldn't find any results that match your search query. Please try refining your search."
+			"title": "Nie znaleziono wyników dla \"{query}\"",
+			"description": "Przepraszamy, nie znaleźliśmy żadnych wyników pasujących do Twojego zapytania. Spróbuj zmienić wyszukiwaną frazę."
 		},
 		"metadata": {
-			"title": "Search: {query} · Your Next Store"
+			"title": "Wyszukiwanie: {query} · Twój Następny Sklep"
 		},
 		"page": {
-			"title": "Searching for \"{query}\""
+			"title": "Wyszukiwanie \"{query}\""
 		},
 		"loading": {
-			"title": "Searching for"
+			"title": "Wyszukiwanie"
 		}
 	},
 	"/products": {
 		"metadata": {
-			"title": "All Products · Your Next Store"
+			"title": "Wszystkie Produkty · Twój Następny Sklep"
 		},
 		"page": {
-			"title": "All Products"
+			"title": "Wszystkie Produkty"
 		}
 	},
 	"/product": {
 		"metadata": {
-			"title": "{productName} · Your Next Store"
+			"title": "{productName} · Twój Następny Sklep"
 		},
 		"page": {
-			"allProducts": "All products",
-			"imagesTitle": "Images",
-			"descriptionTitle": "Description",
-			"variantTitle": "Variant"
+			"allProducts": "Wszystkie produkty",
+			"imagesTitle": "Obrazy",
+			"descriptionTitle": "Opis",
+			"variantTitle": "Wariant"
 		}
 	},
 	"/category": {
 		"metadata": {
-			"title": "{categoryName} Category · Your Next Store"
+			"title": "Kategoria {categoryName} · Twój Następny Sklep"
 		},
 		"page": {
-			"title": "Category: {categoryName}"
+			"title": "Kategoria: {categoryName}"
 		}
 	},
 	"/cart": {
 		"modal": {
-			"title": "Shopping Cart",
-			"openFullView": "(open full view)",
-			"quantity": "Quantity: {quantity}",
-			"total": "Total",
-			"shippingAndTaxesInfo": "Shipping and taxes will be added at the next step",
-			"goToPaymentButton": "Go to payment"
+			"title": "Koszyk",
+			"openFullView": "(otwórz pełny widok)",
+			"quantity": "Ilość: {quantity}",
+			"total": "Suma",
+			"shippingAndTaxesInfo": "Koszty wysyłki i podatki zostaną doliczone na następnym etapie",
+			"goToPaymentButton": "Przejdź do płatności"
 		},
 		"metadata": {
-			"title": "Shopping Cart · Your Next Store"
+			"title": "Koszyk · Twój Następny Sklep"
 		},
 		"page": {
-			"title": "Your cart",
-			"checkoutTitle": "Checkout",
-			"checkoutDescription": "Provide billing and shipping details below.",
+			"title": "Twój koszyk",
+			"checkoutTitle": "Zamówienie",
+			"checkoutDescription": "Podaj dane rozliczeniowe i wysyłkowe poniżej.",
 			"summaryTable": {
-				"imageCol": "Image",
-				"productCol": "Product",
-				"priceCol": "Price",
-				"quantityCol": "Quantity",
-				"totalCol": "Total",
-				"totalSummary": "TOTAL"
+				"imageCol": "Obraz",
+				"productCol": "Produkt",
+				"priceCol": "Cena",
+				"quantityCol": "Ilość",
+				"totalCol": "Suma",
+				"totalSummary": "SUMA"
 			},
 			"stripePayment": {
-				"fillRequiredFields": "Please fill in the required fields.",
-				"unexpectedError": "An unexpected error occurred.",
-				"billingSameAsShipping": "Billing address same as shipping",
-				"billingAddressTitle": "Billing address",
-				"payNowButton": "Pay now",
-				"errorTitle": "Error",
-				"fullName": "Full name",
-				"address1": "Address",
-				"address2": "Address (cont.)",
-				"postalCode": "Postal Code",
-				"city": "City",
-				"state": "State / Region",
-				"country": "Country",
-				"phone": "Phone number",
-				"taxId": "Tax ID",
-				"taxIdPlaceholder": "eg. PL123456789"
+				"fillRequiredFields": "Proszę wypełnić wymagane pola.",
+				"unexpectedError": "Wystąpił nieoczekiwany błąd.",
+				"billingSameAsShipping": "Adres rozliczeniowy taki sam jak adres wysyłki",
+				"billingAddressTitle": "Adres rozliczeniowy",
+				"payNowButton": "Zapłać teraz",
+				"errorTitle": "Błąd",
+				"fullName": "Imię i nazwisko",
+				"address1": "Adres",
+				"address2": "Adres (ciąg dalszy)",
+				"postalCode": "Kod pocztowy",
+				"city": "Miasto",
+				"state": "Stan / Region",
+				"country": "Kraj",
+				"phone": "Numer telefonu",
+				"taxId": "NIP",
+				"taxIdPlaceholder": "np. PL123456789"
 			},
 			"formErrors": {
-				"nameRequired": "Name is required",
-				"cityRequired": "City is required",
-				"countryRequired": "Country is required",
-				"line1Required": "Address is required",
-				"postalCodeRequired": "Postal code is required"
+				"nameRequired": "Imię i nazwisko jest wymagane",
+				"cityRequired": "Miasto jest wymagane",
+				"countryRequired": "Kraj jest wymagany",
+				"line1Required": "Adres jest wymagany",
+				"postalCodeRequired": "Kod pocztowy jest wymagany"
 			}
 		},
 		"empty": {
-			"title": "Your cart is empty",
-			"description": "Looks like you haven't added anything to your cart yet.",
-			"continueShoppingButton": "Continue shopping"
+			"title": "Twój koszyk jest pusty",
+			"description": "Wygląda na to, że jeszcze niczego nie dodałeś do koszyka.",
+			"continueShoppingButton": "Kontynuuj zakupy"
 		}
 	},
 	"/order": {
 		"metadata": {
-			"title": "Order Confirmation · Your Next Store"
+			"title": "Potwierdzenie Zamówienia · Twój Następny Sklep"
 		},
 		"page": {
-			"title": "Order Confirmation",
-			"description": "Thank you! You'll find the details of your order below.",
-			"orderNumberTitle": "Order number",
-			"productsTitle": "Products in this order",
-			"price": "Price",
-			"quantity": "Quantity",
-			"total": "Total",
-			"detailsTitle": "Order details",
-			"shippingAddress": "Shipping address",
-			"billingAddress": "Billing address",
-			"taxId": "Tax ID",
-			"paymentMethod": "Payment method",
-			"cardBrand": "Card brand",
-			"last4CardDigitsLabel": "Card number ending in"
+			"title": "Potwierdzenie Zamówienia",
+			"description": "Dziękujemy! Szczegóły zamówienia znajdziesz poniżej.",
+			"orderNumberTitle": "Numer zamówienia",
+			"productsTitle": "Produkty w tym zamówieniu",
+			"price": "Cena",
+			"quantity": "Ilość",
+			"total": "Suma",
+			"detailsTitle": "Szczegóły zamówienia",
+			"shippingAddress": "Adres wysyłki",
+			"billingAddress": "Adres rozliczeniowy",
+			"taxId": "NIP",
+			"paymentMethod": "Metoda płatności",
+			"cardBrand": "Marka karty",
+			"last4CardDigitsLabel": "Numer karty kończący się na"
 		},
 		"paymentStatus": {
-			"canceled": "Canceled",
-			"processing": "Processing",
-			"requires_action": "Requires Action",
-			"requires_capture": "Requires Capture",
-			"requires_confirmation": "Requires Confirmation",
-			"requires_payment_method": "Requires Payment Method",
-			"succeeded": "Succeeded"
+			"canceled": "Anulowano",
+			"processing": "Przetwarzanie",
+			"requires_action": "Wymaga Działania",
+			"requires_capture": "Wymaga Zarejestrowania",
+			"requires_confirmation": "Wymaga Potwierdzenia",
+			"requires_payment_method": "Wymaga Metody Płatności",
+			"succeeded": "Zakończono sukcesem"
 		}
 	}
 }

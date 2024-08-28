@@ -1,11 +1,9 @@
-import { type MetadataRoute } from "next";
 import * as Commerce from "commerce-kit";
+import { type MetadataRoute } from "next";
+
 import { publicUrl } from "@/env.mjs";
 
-const Categories = [
-	{ name: "Apparel", slug: "apparel" },
-	{ name: "Accessories", slug: "accessories" },
-];
+const Categories = [{ name: "Sklep", slug: "" }];
 
 type Item = MetadataRoute.Sitemap[number];
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
